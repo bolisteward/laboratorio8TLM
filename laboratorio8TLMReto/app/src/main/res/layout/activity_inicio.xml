@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="25dp"
+    android:layout_marginEnd="25dp"
+    android:orientation="vertical"
+    tools:context=".Inicio">
+
+    <TextView
+        android:id="@+id/text"
+        android:text="Ingrese usuario"
+        android:layout_marginTop="200dp"
+        android:layout_width="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:textSize="25sp"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/edt_usuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Usuario"
+        />
+
+    <TextView
+        android:id="@+id/text2"
+        android:text="Ingrese contraseña"
+        android:layout_width="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:textSize="25sp"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/edt_contrseña"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contraseña"
+        />
+
+    <Button
+        android:id="@+id/btn_InicioSesion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:onClick="inicio"
+        android:text="INICIAR SESION" />
+    <Button
+        android:id="@+id/btn_Volver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:onClick="volver"
+        android:text="VOLVER" />
+
+
+</LinearLayout>
