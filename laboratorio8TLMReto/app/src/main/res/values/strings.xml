@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">laboratorio8TLM-Reto</string>
+    <string name="nombre">Nombre: Bolivar Nunez Montioya</string>
+    <string name="matricula">Matricula: 201707775</string>
 </resources>

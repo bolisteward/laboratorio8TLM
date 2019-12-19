@@ -21,9 +21,10 @@ public class Inicio extends AppCompatActivity {
     }
 
     public void inicio(View view) {
-        EditText usuario = (EditText) findViewById(R.id.edt_usuario);
-        EditText password = (EditText) findViewById(R.id.edt_contrseña);
+        EditText usuario = findViewById(R.id.edt_usuario);
+        EditText password = findViewById(R.id.edt_contrseña);
         Bundle user = new Bundle();
+
         if (usuario.getText()!=null && password.getText()!=null) {
             user.putString("usuario", usuario.getText().toString());
             user.putString("password", password.getText().toString());
@@ -34,4 +35,5 @@ public class Inicio extends AppCompatActivity {
             Toast.makeText(this, "No ha ingresado usuario y contraseña", Toast.LENGTH_SHORT).show();
         }
     }
+    public void volver (View view){finish(); }
 }
